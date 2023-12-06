@@ -32,4 +32,4 @@ two 2 PoC Videos on CSS Exfiltration technique for reference.
 
 # Article & Further Research
 
-![](https://medium.com/@angryovalegg/blind-css-data-exfiltration-8dd6614236b2)
+https://medium.com/@angryovalegg/blind-css-data-exfiltration-8dd6614236b2
