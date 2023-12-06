@@ -2,7 +2,7 @@
 
 ![](https://github.com/schooldropout1337/blindcss/blob/main/blindcss.jpg)
 
-This repository contains a demonstration of Blind CSS Exfiltration, showcasing a Node.js server, a vulnerable app, and proof-of-concept videos for reference.
+This repository contains a demonstration of Blind CSS Exfiltration, showcasing a Node.js css exfiltrator server, a test page, and proof-of-concept videos for reference.
 
 # Article Source
 The inspiration for this article is derived from the research conducted by PortSwigger, available at Blind CSS Exfiltration. The goal is to provide additional insights, explanations, and considerations based on this innovative web security threat.
@@ -16,7 +16,7 @@ index.js: Node.js server running on port 3000. It calls index.html to demonstrat
 
 index.html: HTML file containing a payload with a CSS import. This file is called by the Node.js server (port 3000).
 
-css-exfiltrator-server.js: A vulnerable Node.js app running on port 5001, susceptible to Blind CSS Exfiltration. This demonstrates the potential impact of the attack.
+css-exfiltrator-server.js: A css exfiltrator app running on port 5001.
 
 two 2 PoC Videos on CSS Exfiltration technique for reference.
 
