@@ -20,9 +20,16 @@ css-exfiltrator-server.js: A css exfiltrator app running on port 5001.
 
 two 2 PoC Videos on CSS Exfiltration technique for reference.
 
+![](https://github.com/schooldropout1337/blindcss/blob/main/bcss.jpg)
+
+
 # Steps to Reproduce
 1. node index.js
 2. node css-exfiltrator-server.js
 3. browse to http://127.0.0.1:3000
-4. open devtool
+4. open devtools
 5. go to network tab
+
+# Article & Further Research
+
+![](https://medium.com/@angryovalegg/blind-css-data-exfiltration-8dd6614236b2)
