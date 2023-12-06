@@ -14,3 +14,10 @@ index.html: HTML file containing a payload with a CSS import. This file is calle
 css-exfiltrator-server.js: A vulnerable Node.js app running on port 5001, susceptible to Blind CSS Exfiltration. This demonstrates the potential impact of the attack.
 
 two 2 PoC Videos on CSS Exfiltration technique for reference.
+
+# Steps to Reproduce
+1. node index.js
+2. node css-exfiltrator-server.js
+3. browse to http://127.0.0.1:3000
+4. open devtool
+5. go to network tab
